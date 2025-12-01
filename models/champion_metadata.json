@@ -1,9 +1,0 @@
-{
-  "model_name": "GradientBoostingClassifier",
-  "version": "1.0",
-  "trained_on": "2025-10-08",
-  "accuracy": 0.86,
-  "f1_weighted": 0.85,
-  "dataset": "Wine Quality (UCI)",
-  "classes": ["Low", "Medium", "High"]
-}
