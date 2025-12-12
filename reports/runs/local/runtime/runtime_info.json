@@ -1,0 +1,18 @@
+{
+  "timestamp_utc": "2025-12-11T16:06:02.940966Z",
+  "python": "3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26100-SP0",
+  "executable": "C:\\Users\\S P E C T R E\\Desktop\\Personal Projects\\wine_quality_projectt\\winequality\\Scripts\\python.exe",
+  "packages": {
+    "pandas": "2.3.3",
+    "numpy": "2.3.3",
+    "sklearn": "1.7.2",
+    "imblearn": "0.14.0",
+    "matplotlib": "3.10.6",
+    "seaborn": "0.13.2",
+    "shap": "0.48.0",
+    "xgboost": "not_installed",
+    "lightgbm": "not_installed",
+    "joblib": "1.5.2"
+  }
+}

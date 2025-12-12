@@ -1,0 +1,16 @@
+{
+  "metric": "ordinal_mae",
+  "model_a": "random_forest",
+  "model_b": "gradient_boosting",
+  "n_pairs": 15,
+  "mean_a": 0.12695990073145247,
+  "mean_b": 0.13363113897596657,
+  "mean_diff_a_minus_b": -0.006671238244514111,
+  "mean_diff_ci_95": [
+    -0.011250000000000005,
+    -0.0018789184952978071
+  ],
+  "test": "wilcoxon_signed_rank",
+  "statistic": 12.0,
+  "p_value": 0.019186654647626422
+}

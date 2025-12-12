@@ -1,0 +1,41 @@
+random_state: 42
+target_col: quality_category
+test_size: 0.2
+cv_folds: 5
+cv.n_splits: 5
+cv.n_repeats: 3
+data:
+  path: data/processed/wine_quality_processed.csv
+  sep: ','
+preprocess:
+  scale: true
+  polynomial_degree: 2
+models:
+  logistic_regression:
+    enabled: true
+    params:
+      multi_class: multinomial
+      solver: lbfgs
+      max_iter: 1000
+      class_weight: balanced
+  random_forest:
+    enabled: true
+    params:
+      n_estimators: 300
+      class_weight: balanced
+  svm:
+    enabled: true
+    params:
+      kernel: rbf
+      C: 3
+      class_weight: balanced
+report:
+  label_order:
+  - 0
+  - 1
+  - 2
+  label_names:
+  - Low
+  - Medium
+  - High
+  outdir: reports/runs/local
